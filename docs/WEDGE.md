@@ -73,7 +73,7 @@ The matrix compares **each candidate directly with every required incumbent**. C
 
 **Deliberately do not build:** a runtime proxy/gateway, agent identity issuer, policy engine/language, approval queue or signing service, audit database, dashboard, cloud control plane, SSO, billing, DLP/prompt-injection scanner, security certification, or universal support for coding agents and every MCP revision. Do not maintain a competing replacement for the official conformance suite. Do not claim to prevent direct bypasses.
 
-## 6. Validation gates before any architecture or implementation code
+## 6. Validation gates before implementation code
 
 1. **User evidence:** Speak with at least five maintainers/developers who actually configure MCP policy. Record current testing method, recent misconfiguration, impact, and whether they would run an independent check in CI. Demand is not yet verified by public docs.
 2. **Head-to-head baseline:** Run the quickstarts for Archestra, agentgateway, ActionProxy, and at least one of ContextForge/Docker in a reproducible setup. Run official conformance/Inspector and inspect OWASP's harness. Time an external developer's journey from a documented gateway policy to an observed DENY/ALLOW result. Record limitations and maintainers' existing tests.
@@ -81,7 +81,7 @@ The matrix compares **each candidate directly with every required incumbent**. C
 4. **Proceed threshold:** At least two unrelated external developers report this exact unsolved job; two named gateways lack an equivalently quick upstream-observed check in the measured workflow; and a credible walkthrough can show denied zero-upstream plus allowed one-upstream in under five minutes after setup. These are proposed decision thresholds, not achieved results.
 5. **Stop or contribute:** If official conformance, OWASP, or gateway-specific tests already solve this workflow adequately, contribute the missing scenario or documentation there. Do not create AgentGate as a parallel project merely to repackage them.
 
-This decision **supersedes the proposed v0.1 product direction** in PRODUCT.md and MVP.md if the pivot is validated. Those documents must be revised before architecture work; their existing gateway CLI and approval contract are historical hypotheses, not implementation requirements for the revised product.
+This decision **supersedes the proposed v0.1 product direction** in PRODUCT.md and MVP.md if the pivot is validated. Those documents are marked as historical proposals. [ARCHITECTURE.md](ARCHITECTURE.md) is a conditional design for the revised direction; [VALIDATION_PLAN.md](VALIDATION_PLAN.md) and [IMPLEMENTATION_READINESS.md](IMPLEMENTATION_READINESS.md) gate implementation. The old gateway CLI and approval contract are not requirements for the revised product.
 
 ## 7. Final decision
 
