@@ -1,7 +1,7 @@
-# AgentGate — Wedge decision before architecture
+# AgentGate — Wedge decision before implementation
 
 **Decision date:** 2026-10-05  
-**Status:** Product hypothesis and validation gate; no architecture or implementation authorized by this document.  
+**Status:** Product hypothesis and validation gate; [ARCHITECTURE.md](ARCHITECTURE.md) records a conditional narrow design, but implementation remains NO-GO pending [VALIDATION_PLAN.md](VALIDATION_PLAN.md).  
 **Read together with:** [PRODUCT.md](PRODUCT.md), [MVP.md](MVP.md), [ECOSYSTEM.md](ECOSYSTEM.md).
 
 ## 1. Decision context and hard constraints
