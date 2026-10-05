@@ -1,6 +1,8 @@
 # AgentGate v0.1 — Minimum Viable Product
 
-**Purpose:** Prove that a developer can put AgentGate between two AI agent integrations and one MCP server, then get three enforceable outcomes for tool calls: **ALLOW**, **DENY**, and **REQUIRE_APPROVAL**. This document is the build and acceptance contract for v0.1; [PRODUCT.md](PRODUCT.md) defines the longer-lived product boundary.
+**Status:** Archived original gateway MVP; not the current v0.1 build contract. The conditional verifier direction is specified in [WEDGE.md](WEDGE.md) and [ARCHITECTURE.md](ARCHITECTURE.md); validation and GO/NO-GO are in [VALIDATION_PLAN.md](VALIDATION_PLAN.md) and [IMPLEMENTATION_READINESS.md](IMPLEMENTATION_READINESS.md). The legacy 2025-11-25 gateway CLI, identity, approval, and audit contract below is retained for decision history only.
+
+**Original purpose:** Prove that a developer can put AgentGate between two AI agent integrations and one MCP server, then get three enforceable outcomes for tool calls: **ALLOW**, **DENY**, and **REQUIRE_APPROVAL**.
 
 ## 1. The smallest useful deployment
 
