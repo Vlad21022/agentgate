@@ -1,7 +1,9 @@
 # AgentGate — Product Definition
 
-**Status:** Product scope for v0.1  
-**Core promise:** **Every AI agent gets an identity, permissions, and an audit trail.**
+**Status:** Archived original gateway proposal; not the current v0.1 implementation scope.  
+**Original core promise:** **Every AI agent gets an identity, permissions, and an audit trail.**
+
+**Current decision:** The broad runtime gateway is superseded for implementation planning by the conditional verifier pivot in [WEDGE.md](WEDGE.md). The current bounded design is [ARCHITECTURE.md](ARCHITECTURE.md); [VALIDATION_PLAN.md](VALIDATION_PLAN.md) and [IMPLEMENTATION_READINESS.md](IMPLEMENTATION_READINESS.md) govern the GO decision. The material below preserves the original product hypothesis and must not be treated as v0.1 acceptance criteria.
 
 ## 1. Problem
 
